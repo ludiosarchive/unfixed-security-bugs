@@ -20,7 +20,7 @@ Please submit a pull request if you know about any other unfixed security bugs.
 
 ## VirtualBox
 
-* Unlike VMware Workstation, [VirtualBox clipboard sharing gives guests continuous access to the clipboard, rather than just when the VM is focused](https://www.virtualbox.org/ticket/16508)
+* Unlike VMware Workstation, [VirtualBox clipboard sharing gives guests continuous access to the clipboard](https://www.virtualbox.org/ticket/16508), instead of just when the VM is focused.
 
 
 ## Xorg
