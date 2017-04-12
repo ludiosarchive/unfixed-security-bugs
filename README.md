@@ -18,13 +18,6 @@ Please submit a pull request if you know about any other unfixed security bugs.
 * [Multi-line pastes from an untrusted source (e.g. browser) can automatically execute something you did not intend to copy](https://www.google.com/search?q=terminal+security+paste&ie=utf-8&oe=utf-8)
 
 
-## Erlang/OTP
-
-* [Check for null bytes in binaries / strings when opening files](https://bugs.erlang.org/browse/ERL-370)
-
-* [Stored XSS vulnerability in mod_dir](https://bugs.erlang.org/browse/ERL-330)
-
-
 ## VirtualBox
 
 * Unlike VMware Workstation, [VirtualBox clipboard sharing gives guests continuous access to the clipboard](https://www.virtualbox.org/ticket/16508), instead of just when the VM is focused.
@@ -33,6 +26,18 @@ Please submit a pull request if you know about any other unfixed security bugs.
 ## Xorg
 
 * [Any program connected to the server can sniff another program's keystrokes](http://theinvisiblethings.blogspot.com/2011/04/linux-security-circus-on-gui-isolation.html]).  Solved in Wayland.
+
+
+# Node
+
+* [node climbs up to look for node_modules in directories that can be written to by other users](https://github.com/nodejs/node-v0.x-archive/issues/8830)
+
+
+## Erlang/OTP
+
+* [Check for null bytes in binaries / strings when opening files](https://bugs.erlang.org/browse/ERL-370)
+
+* [Stored XSS vulnerability in mod_dir](https://bugs.erlang.org/browse/ERL-330)
 
 
 ## Twisted
