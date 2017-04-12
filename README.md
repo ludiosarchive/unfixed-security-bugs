@@ -64,6 +64,11 @@ Please submit a pull request if you know about any other unfixed security bugs.
 * [Bundled alchemist-server is vulnerable to remote code execution](https://github.com/slashmili/alchemist.vim/issues/85)
 
 
+## WeeChat
+
+* [WeeChat relays allows clients to execute code on the relay](https://github.com/weechat/weechat/issues/928)
+
+
 ## Windows 7 through 10
 
 * [Various methods of automatically bypassing UAC](http://www.kernelmode.info/forum/viewtopic.php?f=11&t=3643&start=130#p30022) (see "Unfixed methods in upcoming Windows 10 RS2 release")
