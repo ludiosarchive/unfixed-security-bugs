@@ -30,7 +30,7 @@ Please submit a pull request if you know about any other unfixed security bugs.
 
 ## Twisted
 
-* [Credentials materials are compared unsafely throughout Twisted](http://twistedmatrix.com/trac/ticket/4536), still open due to the difficulty of measuring whether the constant-time compare function actually solves anything
+* [Credentials materials are compared unsafely throughout Twisted](http://twistedmatrix.com/trac/ticket/4536), still open due to the difficulty of measuring whether the constant-time compare function actually fixes anything.
 
 * [twisted.web has no protection against HTTP response-splitting attacks](http://twistedmatrix.com/trac/ticket/3770)
 
