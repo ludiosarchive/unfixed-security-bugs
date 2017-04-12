@@ -20,7 +20,7 @@ Please submit a pull request if you know about any other unfixed security bugs.
 
 ## sudo
 
-* sudo TTY tickets (generally enabled by default) allow *any subprocess* to do a passwordless sudo without the timeout period, not just commands you've typed in the shell.
+* sudo TTY tickets (generally enabled by default) allow *any subprocess* to do a passwordless sudo within the timeout period, not just commands you've typed in the shell.
 
 
 ## VirtualBox
