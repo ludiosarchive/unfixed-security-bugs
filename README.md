@@ -13,6 +13,11 @@ Please submit a pull request if you know about any other unfixed security bugs.
 * [CSS mix-blend-mode is bad for your browsing history](https://lcamtuf.blogspot.com/2016/08/css-mix-blend-mode-is-bad-for-keeping.html) ([demo](http://lcamtuf.coredump.cx/whack/))
 
 
+## Pretty much every terminal emulator
+
+* [Multi-line pastes from an untrusted source (e.g. browser) can automatically execute something you did not intend to copy](https://www.google.com/search?q=terminal+security+paste&ie=utf-8&oe=utf-8)
+
+
 ## Erlang/OTP
 
 * [Stored XSS vulnerability in mod_dir](https://bugs.erlang.org/browse/ERL-330)
