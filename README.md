@@ -28,7 +28,7 @@ Please submit a pull request if you know about any other unfixed security bugs.
 * [Any program connected to the server can sniff another program's keystrokes](http://theinvisiblethings.blogspot.com/2011/04/linux-security-circus-on-gui-isolation.html]).  Solved in Wayland.
 
 
-# Node
+## Node
 
 * [node climbs up to look for node_modules in directories that can be written to by other users](https://github.com/nodejs/node-v0.x-archive/issues/8830)
 
