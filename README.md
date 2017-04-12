@@ -20,6 +20,8 @@ Please submit a pull request if you know about any other unfixed security bugs.
 
 ## Erlang/OTP
 
+* [Check for null bytes in binaries / strings when opening files](https://bugs.erlang.org/browse/ERL-370)
+
 * [Stored XSS vulnerability in mod_dir](https://bugs.erlang.org/browse/ERL-330)
 
 
