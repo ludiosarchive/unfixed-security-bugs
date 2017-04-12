@@ -69,6 +69,11 @@ Please submit a pull request if you know about any other unfixed security bugs.
 * [WeeChat relays allows clients to execute code on the relay](https://github.com/weechat/weechat/issues/928)
 
 
+## phantomjs, libqtwebkit4, libqt5webkit5
+
+* These packages exist in a state of permanent insecurity because they don't keep up with the ~6-week browser update cycle.
+
+
 ## Windows 7 through 10
 
 * [Various methods of automatically bypassing UAC](http://www.kernelmode.info/forum/viewtopic.php?f=11&t=3643&start=130#p30022) (see "Unfixed methods in upcoming Windows 10 RS2 release")
