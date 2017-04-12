@@ -18,6 +18,11 @@ Please submit a pull request if you know about any other unfixed security bugs.
 * [Multi-line pastes from an untrusted source (e.g. browser) can automatically execute something you did not intend to copy](https://www.google.com/search?q=terminal+security+paste&ie=utf-8&oe=utf-8)
 
 
+## sudo
+
+* sudo TTY tickets (generally enabled by default) allow *any subprocess* to do a passwordless sudo without the timeout period, not just commands you've typed in the shell.
+
+
 ## VirtualBox
 
 * Unlike VMware Workstation, [VirtualBox clipboard sharing gives guests continuous access to the clipboard](https://www.virtualbox.org/ticket/16508), instead of just when the VM is focused.
