@@ -30,7 +30,7 @@ Please submit a pull request if you know about any other unfixed security bugs.
 
 ## Xorg
 
-* [Any program connected to the server can sniff another program's keystrokes](http://theinvisiblethings.blogspot.com/2011/04/linux-security-circus-on-gui-isolation.html]).  Solved in Wayland.
+* [Any program connected to the server can sniff another program's keystrokes](https://theinvisiblethings.blogspot.com/2011/04/linux-security-circus-on-gui-isolation.html).  Solved in Wayland.
 
 
 ## Node
