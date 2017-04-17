@@ -73,7 +73,7 @@ Please submit a pull request if you know about any other unfixed security bugs.
 
 ## phantomjs, libqtwebkit4, libqt5webkit5
 
-* These packages exist in a state of permanent insecurity because they don't keep up with the ~6-week browser update cycle.
+* These packages exist in a state of permanent insecurity because they don't keep up with the ~6-week browser update cycle.  (e.g. take any one of the many WebKit security bugs fixed after the last release of these packages, which could be a ~year old.)
 
 
 ## Windows 7 through 10
