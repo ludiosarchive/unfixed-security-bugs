@@ -1,6 +1,6 @@
 # A list of publicly known but unfixed security bugs
 
-Please submit a pull request if you know about any other unfixed security bugs.
+Please submit a pull request if you have corrections or know about any other unfixed security bugs.
 
 
 ## tar
