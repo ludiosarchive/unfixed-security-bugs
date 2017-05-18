@@ -79,3 +79,14 @@ Please submit a pull request if you have corrections or know about any other unf
 ## Windows 7 through 10
 
 * [Various methods of automatically bypassing UAC](http://www.kernelmode.info/forum/viewtopic.php?f=11&t=3643&start=130#p30022) (see "Unfixed methods in upcoming Windows 10 RS2 release")
+
+
+## Packages in your Linux distribution
+
+* [Debian stable](https://security-tracker.debian.org/tracker/status/release/stable)
+* [Debian testing](https://security-tracker.debian.org/tracker/status/release/testing)
+* [Debian unstable](https://security-tracker.debian.org/tracker/status/release/unstable)
+* [Ubuntu main archive](https://people.canonical.com/~ubuntu-security/cve/main.html)
+* [Ubuntu universe archive](https://people.canonical.com/~ubuntu-security/cve/universe.html)
+* [Ubuntu partner archive](https://people.canonical.com/~ubuntu-security/cve/partner.html)
+* [Arch Linux](https://security.archlinux.org/)
