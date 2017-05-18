@@ -20,7 +20,7 @@ Please submit a pull request if you have corrections or know about any other unf
 
 ## sudo
 
-* sudo TTY tickets (generally enabled by default) allow *any subprocess* to do a passwordless sudo within the timeout period, not just commands you've typed into the shell.
+* sudo credential caching (generally enabled by default; disabled with `Defaults timestamp_timeout=0`) allows *any process* in a TTY to do a passwordless sudo within the timeout period, not just commands that you've prefixed with `sudo` in the shell.
 
 
 ## VirtualBox
