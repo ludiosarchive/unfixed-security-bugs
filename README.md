@@ -20,7 +20,7 @@ Please submit a pull request if you have corrections or know about any other unf
 
 ## sudo
 
-* When running `sudo -u non-root-user` as root, `TIOCSTI` allows the `command` in `sudo -u non-root-user command` to [execute anything as root](http://www.openwall.com/lists/oss-security/2017/06/03/9).  [Can be fixed](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=657784#9) with `Defaults use_pty` in `sudoers`.
+* When running `sudo -u non-root-user` as root, `TIOCSTI` allows the `command` in `sudo -u non-root-user command` to [execute anything as root](http://www.openwall.com/lists/oss-security/2017/06/03/9).  [Can be fixed](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=657784#9) with `Defaults use_pty` in `sudoers`.  [More notes](https://ruderich.org/simon/notes/su-sudo-from-root-tty-hijacking).
 
 * sudo credential caching (generally enabled by default; disabled with `Defaults timestamp_timeout=0`) allows *any process* in a TTY to do a passwordless sudo within the timeout period, not just commands that you've prefixed with `sudo` in the shell.
 
