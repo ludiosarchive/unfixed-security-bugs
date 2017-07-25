@@ -58,16 +58,6 @@ Please submit a pull request if you have corrections or know about any other unf
 * [twisted.web server has no way to limit size of request body](http://twistedmatrix.com/trac/ticket/4898)
 
 
-## alchemist-server
-
-* [Server executes arbitrary code from remote machines](https://github.com/tonini/alchemist-server/issues/14)
-
-
-## alchemist.vim
-
-* [Bundled alchemist-server is vulnerable to remote code execution](https://github.com/slashmili/alchemist.vim/issues/85)
-
-
 ## WeeChat
 
 * [WeeChat relays allows clients to execute code on the relay](https://github.com/weechat/weechat/issues/928)
