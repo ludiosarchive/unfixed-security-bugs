@@ -48,6 +48,8 @@ Please submit a pull request if you have corrections or know about any other unf
 
 * [Stored XSS vulnerability in mod_dir](https://bugs.erlang.org/browse/ERL-330)
 
+* [HTTP content injection in httpc:request](https://bugs.erlang.org/browse/ERL-456)
+
 
 ## Twisted
 
