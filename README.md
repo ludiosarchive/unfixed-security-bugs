@@ -44,6 +44,8 @@ Please submit a pull request if you have corrections or know about any other unf
 
 * [You can crash a distributed Erlang node by making ~1M connections with an invalid security cookie](https://blog.voltone.net/post/12)
 
+* [Check for null bytes in binaries / strings when opening files](https://bugs.erlang.org/browse/ERL-370)
+
 * [Stored XSS vulnerability in mod_dir](https://bugs.erlang.org/browse/ERL-330)
 
 * [HTTP content injection in httpc:request](https://bugs.erlang.org/browse/ERL-456)
