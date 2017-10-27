@@ -84,3 +84,8 @@ Please submit a pull request if you have corrections or know about any other unf
 * [Ubuntu universe archive](https://people.canonical.com/~ubuntu-security/cve/universe.html)
 * [Ubuntu partner archive](https://people.canonical.com/~ubuntu-security/cve/partner.html)
 * [Arch Linux](https://security.archlinux.org/)
+
+
+## On your LineageOS device
+
+* [CVE Tracker](https://cve.lineageos.org/devices)
