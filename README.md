@@ -30,6 +30,11 @@ Please submit a pull request if you have corrections or know about any other unf
 * Unlike VMware Workstation, [VirtualBox clipboard sharing gives guests continuous access to the clipboard](https://www.virtualbox.org/ticket/16508), instead of just when the VM is focused.
 
 
+## virt-manager/spice-gtk
+
+* Unlike VMware Workstation, [virt-manager/spice-gtk clipboard sharing gives guests continuous access to the clipboard](https://bugzilla.redhat.com/show_bug.cgi?id=1320263), instead of just when the VM is focused.  This clipboard sharing feature is *unconditionally enabled* without warning.  A compromised guest with no need for clipboard access can install `spice-vdagent` and start continuously sniffing the host clipboard.
+
+
 ## Xorg
 
 * [Any program connected to the server can sniff another program's keystrokes](https://theinvisiblethings.blogspot.com/2011/04/linux-security-circus-on-gui-isolation.html).  Solved in Wayland.
