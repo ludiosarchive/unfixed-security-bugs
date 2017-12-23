@@ -75,7 +75,9 @@ Please submit a pull request if you have corrections or know about any other unf
 * These packages exist in a state of permanent insecurity because they don't keep up with the ~6-week browser update cycle.  (e.g. take any one of the many WebKit security bugs fixed after the last release of these packages, which could be a ~year old.)
 
 
-## Windows 7 through 10
+## Windows
+
+* [Windows Defender's malware emulator is unsandboxed and runs with SYSTEM privileges](https://opencfp.immunityinc.com/talks/160/)
 
 * [Various methods of automatically bypassing UAC](http://www.kernelmode.info/forum/viewtopic.php?f=11&t=3643&start=130#p30022) (see "Unfixed methods in upcoming Windows 10 RS2 release")
 
